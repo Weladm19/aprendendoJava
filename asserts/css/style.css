@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nerko+One&family=Open+Sans:wght@700&family=Orbitron&display=swap');
+
+*{
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+}
+
+.begin , .half , .section{
+    display: flex;
+    height: 100vh;
+    transform: rotateX('angle');
+}
+
+body{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.flex_content{
+    display: flex;
+    margin: auto;
+}
+
+.wal_bg{
+    background: url(../imgs/Fundo.png) center center fixed;
+    background-size: cover;
+    color: white;
+}
+
+/*Begin*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/*Half*/
+main{
+    display: flex;
+    align-items: center;
+
+}
+.photo{
+    border-radius: 250px;
+    margin: 0px 25px;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+
+.photo:hover {
+    padding: 2px;
+    background-color: rgba(231, 17, 17, 0.671);
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+/*End*/
